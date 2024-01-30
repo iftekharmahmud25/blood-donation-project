@@ -46,6 +46,35 @@ body {
     height: 50px;
     border-radius: 50%;
   }
+  .banner-container {
+    background-image: url('imagess/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    height: 80vh;
+}
+.banner-content h1 {
+  font-size: 32px;
+  font-style: italic;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+ .banner-content p {
+    font-size: 18px;
+    font-style: italic;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-align: center;
+    z-index: 1;
+} 
 
   @media (max-width: 768px) {
     nav {
@@ -61,6 +90,24 @@ body {
 
     nav li {
       display: block;
-      margin: 5px 0;
+    
     }
+  .banner-content p{
+      top: 70%;
+      padding-bottom: 40px;
+      padding-top: 20px;
+  }
+
+  .banner-content h1 {
+    font-size: 20px;
+    font-style: italic;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+
+
+
   }
